@@ -12,10 +12,11 @@ A simple tool for simulating SAXS patterns on which a VAE neural network is trai
 1) Nanoparticles (core/shell morphology) in a polymer matrix are generated and their scattering pattern is calculated using a simple form factor parameter variation.
 
 2) A simple PyTorch MLP VAE is trained on the previosuly generated scattering patterns with 200 input datapoints (200-dimensional normalized curves). Plot the simulated data vs. the AI model-trained reconstructed data + latent space (color distinguishing by R_Core). Exemplary latent space plots are shown.
-<img width="3557" height="1145" alt="real_vs_reconstructed" src="https://github.com/user-attachments/assets/2994bd06-ebae-4cc1-bb92-bee9b7a4a7ed" />
-<img width="4133" height="1807" alt="latent_space" src="https://github.com/user-attachments/assets/22ed26f4-e2f1-483c-8751-84a0e737c838" />
+<img width="3557" height="1145" alt="real_vs_reconstructed" src="https://github.com/user-attachments/assets/ea5ef817-d41a-48d9-b8e5-1474d6ddfefc" />
+
+<img width="4140" height="1807" alt="latent_space" src="https://github.com/user-attachments/assets/9f5b3a96-5c2e-4844-8c9e-b7654ccf42d3" />
 
 3) Answering the question what composite a given pattern corresponds to. A sample  z  is created which is assumed to be a normal distribution ( N(0,1) ). This is the prior distribution the VAE was trained on.
-4) 
 This will return the 4 predicted physical parameters and answers "What composite generated this pattern?". The final reconstructed curve is displayed alongside the nearest training match is and the input scattering pattern are shown.
-<img width="3557" height="1145" alt="real_vs_reconstructed" src="https://github.com/user-attachments/assets/4d9149ec-a088-4d6a-9a34-a293e5aed69c" />
+
+<img width="2358" height="1745" alt="inverse_design_final_plot" src="https://github.com/user-attachments/assets/14619ef9-3946-4cf3-9046-8318168ac1e8" />
