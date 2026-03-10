@@ -20,3 +20,9 @@ A simple tool for simulating SAXS patterns on which a VAE neural network is trai
 This will return the 4 predicted physical parameters and answers "What composite generated this pattern?". The final reconstructed curve is displayed alongside the nearest training match is and the input scattering pattern are shown.
 
 <img width="2358" height="1745" alt="inverse_design_final_plot" src="https://github.com/user-attachments/assets/14619ef9-3946-4cf3-9046-8318168ac1e8" />
+
+## How to run it yourself
+```bash
+git clone https://github.com/yourusername/saxs-vae-nanoparticle-polymer.git
+cd saxs-vae-nanoparticle-polymer
+# Open saxs_vae_demo.ipynb in Colab or Jupyter
